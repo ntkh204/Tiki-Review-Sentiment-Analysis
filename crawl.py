@@ -10,7 +10,8 @@ nha_sach_tiki_url = "https://tiki.vn/api/personalish/v1/blocks/listings?limit=40
 product_url = "https://tiki.vn/api/v2/products/{}"
 review_url = "https://tiki.vn/api/v2/reviews?page={}&product_id={}"
 
-headers = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36(KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36", "Content-Type": "application/json; charset=utf-8"}
+headers = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36(KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36", 
+           "Content-Type": "application/json; charset=utf-8"}
 
 def crawl_product_id():
     product_list = []
